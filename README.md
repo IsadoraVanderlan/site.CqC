@@ -4,7 +4,7 @@ Este site foi desenvolvido por mim para o instituto Berna Almeida de forma volun
 
 <br/>
 
-![Presentation](https://github.com/IsadoraVanderlan/site.CqC/blob/main/img/cqc.png)
+![Presentation]([https://github.com/IsadoraVanderlan/site.CqC/blob/main/img/cqc.png](https://github.com/IsadoraVanderlan/site.CqC/blob/main/img/apresenta%C3%A7%C3%A3o%20cqc.png)
 <br/><br/>
 
 # Link Para Visualização do Site:
