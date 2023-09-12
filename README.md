@@ -5,7 +5,7 @@ Este site é do IBA - Instituto Berna Almeida.
 
 <br/>
 
-![Presentation]()
+![Presentation](https://github.com/IsadoraVanderlan/site.CqC/blob/main/img/cqc.png)
 <br/><br/>
 
 # Link Para Visualização do Site:
