@@ -1,4 +1,18 @@
-#Site do Projeto CqC - Cartas q Curam
+# Bem-vindos :)
+
+Este site foi desenvolvido por mim juntamento com Eduardo e Maikon.
+Este site é do IBA - Instituto Berna Almeida.
+
+<br/>
+
+![Presentation]()
+<br/><br/>
+
+# Link Para Visualização do Site:
+
+<a href="https://cqccartasqcuram.com.br/">CqC Cartas q Curam
+</a>
+<br/>
 
 # Técnicos:
 - HTML
