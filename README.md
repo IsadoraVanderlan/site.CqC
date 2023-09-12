@@ -1,7 +1,6 @@
 # Bem-vindos :)
 
-Este site foi desenvolvido por mim juntamento com Eduardo e Maikon.
-Este site é do IBA - Instituto Berna Almeida.
+Este site foi desenvolvido por mim para o instituto Berna Almeida de forma voluntária!
 
 <br/>
 
