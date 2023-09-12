@@ -1,0 +1,89 @@
+.introducao-pg {
+    background: url('../img/fundopags.png');
+}
+
+.introducao-pg {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+    text-align: center;
+    color: #6A6161;
+    align-items: center;
+}
+
+.introducao-pg h2 {
+    font-weight: 100;
+}
+
+.conteudo-pg {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    padding: 100px;
+    gap: 50px;
+}
+
+.texto-introducao-pg h3,
+.texto-introducao-pg p {
+    margin-bottom: 30px;
+}
+
+.texto-introducao-pg h3 {
+    margin-top: 20px;
+    font-family: 'Alice', serif;
+    font-size: 30px;
+    color: #6A6161;
+}
+
+.texto-introducao-pg p {
+    font-family: 'roboto' serif;
+    font-size: 15px;
+    color: #6A6161;
+}
+
+.botao-formulario {
+    display: grid;
+    margin: 0px;
+    padding: 0px;
+    gap: 20px;
+}
+
+/* ANIMAÇÃO */
+.intro-pg {
+    visibility: hidden;
+}
+
+/************* RESPONSIVO **************/
+@media (max-width: 900px) {
+    .introducao-pg {
+        padding: 30px;
+    }
+    
+    .introducao-pg h2 {
+        font-size: 40px;
+    }
+  
+    .conteudo-pg {
+        grid-template-columns: 1fr;
+        flex-wrap: wrap;
+        padding: 20px;
+        padding-top: 50px;
+        padding-bottom: 100px;
+        gap: 50px;
+    }  
+    
+    .botao-formulario {
+        gap: 1px;
+    }
+  
+    .resposivo-botão {
+        font-size: 10px;
+        display: grid;
+        margin: 5px;
+        padding: 5px;
+        gap: 10px;
+    }
+  }   
+
+
+

@@ -1,16 +1,4 @@
-# Bem-vindos :)
-
-Este site foi desenvolvido por mim para o Instituto Berna Almeida.
-<br/>
-
-![Presentation]()
-<br/><br/>
-
-# Link Para Visualização do Site:
-
-<a href="https://cqccartasqcuram.com.br/">CqC - Cartas q Curam
-</a>
-<br/>
+#Site do Projeto CqC - Cartas q Curam
 
 # Técnicos:
 - HTML

@@ -1,0 +1,245 @@
+/************** introducao-bg **************/
+.introducao-bg {
+    background: url("../img/pexels-leeloo-thefirst-4544744-1.jpg") no-repeat;
+}
+
+.introducao {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0px 40px;
+    text-align: center;
+}
+
+.introducao img {
+    width: 100%;
+    height: 100%;
+}
+
+.introducao h1 {
+    margin-top: 90px;
+    margin-bottom: 10px;
+}
+
+.introducao-conteudo p {
+    margin-bottom: 90px;
+    color: #6A6161;
+} 
+
+/* ANIMAÇÃO */
+.introducao-bg, .animacao-missao, .inscricao-lista {
+    visibility: hidden;
+}
+
+
+/************* missao **************/
+.missao {
+    margin-top: 90px;
+    margin-bottom: 90px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 0px 40px;
+}
+
+.missao h2 {
+    margin-left: 40px;
+    margin-bottom: 30px;
+    font-size: 60px;
+}
+
+.missao-conteudo h2 {
+    font-size: 60px;
+}
+
+.missao p {
+    font-family: 'great vibes', cursive;
+    font-size: 27px;
+    color: #6A6161;
+    margin-left: -50px;
+    margin-bottom: 30px;
+}
+
+.missao-botao {
+    display: flex;
+    justify-content: end;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/************* introducao-bg2 **************/
+.introducao-bg2 {
+    background: url("../img/fundopags.png");
+}
+
+.faixa {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0px 40px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom : 50px;
+}
+
+.faixa h2 {
+    margin-bottom: 10px;
+}
+
+.faixa-conteudo p {
+    color: #6A6161;
+}
+
+
+/************* incricao lista **************/
+.inscricao-lista {
+    padding: 100px;
+    display: grid;
+}
+
+.inscricao-lista p {
+    margin-bottom: 40px;
+    text-align: center;
+    color: #6A6161;
+}
+
+.inscricao-lista ul {
+    display: flex;
+    gap: 40px;
+    padding: 0 20px 20px 20px;
+    max-width: 1400px;
+}
+
+.inscricao-lista ul {
+    padding: 0px 0px 20px 0px;
+}
+
+.inscricao-lista li {
+    flex: 1;
+    min-width: 280px;
+}
+
+.img-lista {
+    object-fit: contain;
+}
+
+.inscricao-lista img {
+    max-width: 300px;
+    margin-bottom: 16px;
+    border-radius: 500px;
+}
+
+.inscricao-lista a {
+    display: block;
+}
+
+.inscricao-lista h3 {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    color: #6A6161;
+}
+
+.inscricao-lista h3::before {
+    content: '';
+    display: inline-block;
+    height: 8px;
+    width: 12px;
+    margin-right: 8px;
+    background-color: #D99F89D4;
+    transition: width 0.2s;
+}
+
+.inscricao-lista a:hover  h3::before {
+    width: 24px;
+}
+
+.inscricao-lista li span {
+    padding-left: 20px;
+}
+
+.a-lista h3,
+.a-lista button {
+   margin-left: 60px;
+}
+
+.lista-projetos {
+    display: flex;
+    flex-wrap: wrap;  
+    gap: 10rem;    
+    justify-content: center;
+}
+
+.a-lista {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+
+
+
+/************* RESPONSIVO **************/
+@media (max-width: 1200px) {
+    .introducao h1 {
+        font-size: 48px;
+    }   
+}
+
+@media (max-width: 800px) {
+    .introducao h1 {
+        font-size: 36px;
+        margin-top: 60px;
+    }
+
+    .introducao-conteudo p {
+        font-size: 12px;
+        margin-bottom: 60px;
+    }
+
+    .inscricao-lista {
+        padding-bottom: 60px;
+    }
+
+    .inscricao-lista ul {
+        gap: 20px;
+    }
+
+    /************* missao **************/
+    .missao {
+        grid-template-columns: 1fr;
+    }
+
+    .missao-conteudo h2 {
+        font-size: 30px;
+    }
+
+    .missao-conteudo p {
+        font-size: 25px;
+    }
+
+    .missao p {
+        margin-left: 16px;
+    }
+
+    .img-missao {
+        display: none;
+    }
+
+    /********* incricao lista **********/
+    .inscricao-lista {
+        padding: 10px;
+        padding-top: 60px;
+    }
+
+    .lista-projetos li {
+        margin-bottom: 50px;
+    }
+
+    img .img-lista {
+        margin: 0;
+    }
+}
+
+ 
+
+    
+
+

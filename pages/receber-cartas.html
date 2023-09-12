@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site CqC - Cartas q Curam">
+
+    <!-- ANIMAÇÃO -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+
+    <!-- STYLE -->
+    <link rel="preload" href="./css/style.css" as="style">
+    <link rel="stylesheet" href="../../style.css">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- SCRIPT -->
+    <script>document.documentElement.className += ' js';</script>
+    
+    <title>CqC - Receber Cartas</title>
+</head>
+
+<body>
+  <header class="header-bg">
+    <div class="header container">
+        <a href="../index.html">
+            <img src="../img/logo.png" alt="Logo" width="80" height="80">
+        </a>
+
+        <nav class="menu nav-list" data-menu="suave" aria-label="primario"></nav>
+            <ul data-menu="list" id="menu" class="header-menu menu">
+              <li class="nav-item"><a href="../index.html" class="nav-link">Home</a></li>
+              <li class="nav-item"><a href="./receber-cartas.html" class="nav-link">Receber Carta</a></li>
+              <li class="nav-item"><a href="./escrever-cartas.html" class="nav-link">Escrevedores de Cartas</a></li>
+              <li class="nav-item"><a href="./supervisor.html" class="nav-link">Supervisor</a></li>
+              <li class="nav-item"><a href="./loja.html" class="nav-link">Loja</a></li>
+            </ul>
+
+            <button class="botao1 voluntario" href="">Voluntários</button>
+
+            <div class="mobile-menu-icon"> <!-- ICON MENU MOBILE -->
+              <button onclick="menuShow()"><img class="icon" src="../img/menu_white_36dp.svg" alt=""></button>
+            </div>  
+        </nav>
+
+        <div class="mobile-menu"> <!-- MENU MOBILE -->
+          <ul class="mobile-menu-interno">
+            <li class="nav-item"><a href="../index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="./receber-cartas.html" class="nav-link">Receber Carta</a></li>
+            <li class="nav-item"><a href="./escrever-cartas.html" class="nav-link">Escrevedores de Cartas</a></li>
+            <li class="nav-item"><a href="./supervisor.html" class="nav-link">Supervisor</a></li>
+            <li class="nav-item"><a href="./loja.html" class="nav-link">Loja</a></li>
+            <li class="nav-item"><button class="botao1" href="" class="nav-link">Voluntários</button></li>
+          </ul>
+        </div>
+    </div>
+</header>
+
+    <main class="introducao-pg">
+      <div class="introducao-pg container">
+          <div class="animacao-introducao-pg">
+                <h2>Como Receber Carta?</h2>
+                <p>Para receber carta basta se inscrever seguindo os passos abaixo. </br> Entraremos em contato.</p>
+            </div>
+        </div>
+    </main>
+
+    <section class="conteudo-pg container">
+      <div class="texto-introducao-pg">
+        <h3>Como se inscrever?</h3>
+
+        <p>Para se inscrever é muito fácil, basta clicar no botão abaixo e preencher o formulário. </br></br>
+        Lembre-se que, os dados preenchidos devem ser revisados antes de enviar, pois eles são cruciais para que o seu cadastro seja efetivado em nossa base de dados para darmos os próximos passos! </br></br>
+        Os dados enviados neste formulário ficarão em sigilo total.</p>
+
+        <div class="botao-formulario">
+          <button class="botao resposivo-botão"><a href="https://docs.google.com/forms/d/e/1FAIpQLSf_bTtIEuXtOZO4S6A4eKdJJMZ0IW4KVbY4UXhgjFK9RW7o8w/viewform">Formulário Receber Carta - Brasil</a></button>
+          <button class="botao resposivo-botão"><a href="https://docs.google.com/forms/d/199G3p3EFco32lRh8jNhn0_8Z5i4y_Ul9OsNqtyANWVU/viewform?edit_requested=true">Formulário Receber Carta - Portugal</a></button>
+        </div>
+      </div>
+
+      <div class="pg-img">
+        <img src="../img/pexels-ylanite-koppens-2008136.jpg" alt="Livros">
+      </div>
+    </section>
+
+    <footer class="footer-bg">
+        <div class="footer container">
+          <div class="footer-titulo">
+            <h2>CqC </br> Cartas q Curam</h2>
+          </div>
+  
+          <div class="footer-contato">
+            <h3 class="titulo-footer">Contato</h3>
+            
+            <ul class="contato">
+              <li><a target="_blank"  href="https://api.whatsapp.com/send?phone=5561986788678">+55 61 98678 8678</a></li>
+              <li><a target="_blank" href="mailto:cqccartasqcuram@gmail.com">cqccartasqcuram@gmail.com</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-redes">
+            <h3 class="titulo-footer">Redes</h3>
+
+            <div class="footer-icon">
+              <a target="_blank" href="https://www.instagram.com/cqccartasqcuram/">
+                <img class="img-redes" src="../img/redes/instagram.svg" width="30" heigth="30" alt="Instagram">
+              </a>
+              <a target="_blank" href="https://www.facebook.com/cqccartasqcuram">
+                <img src="../img/redes/facebook.svg" width="30" heigth="30" alt="Facebook">
+              </a>
+              <a target="_blank" href="https://www.youtube.com/channel/UC13VDzD3UKj85evIIglPChw">
+                <img src="../img/redes/youtube.svg" width="30" heigth="30" alt="Youtube">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <p class="footer-copy"> ©Copyright 2023 - By <a href="https://isadoravanderlan.github.io/portifolioisadoravanderlan.github.io/">Isadora Vanderlan</a></p>  
+        </div>
+      </footer>
+    
+    <!-- JAVASCRIPT -->
+    <script src="../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+body {
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-family: 'great vibes', cursive;
+  font-size: 90px;
+  color: #90514E;
+}
+
+h2 {
+  font-family: 'great vibes', cursive;
+  font-size: 55px;
+  font-weight: 300;
+  color: #6A6161;
+}
+
+h1, h2, h3, h4, ul, p, blockquote, dd {
+  margin: 0px;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: 100%;
+  display: block; 
+}
+
+@media (max-width: 800px) {
+  .introducao-pg {
+    padding: 0px;
+  }
+
+  .introducao-pg h2 {
+      font-size: 40px;
+  }
+
+  .responsivo-pg {
+      grid-template-columns: 1fr;
+      margin: 50px;
+      margin-bottom: 150px;
+      gap: 50px;
+  }   
+
+  .resposivo-botão {
+      font-size: 10px;
+      display: grid;
+      margin: 5px;
+      padding: 5px;
+      gap: 10px;
+  }
+} 

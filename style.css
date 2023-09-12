@@ -1,0 +1,27 @@
+/* GLOBAL */
+@import "./css/global.css";
+
+/* COMPONENTES */
+@import "./css/componentes.css";
+
+/* NAV HEADER */
+@import "./css/nav-header.css";
+
+/* MENU MOBILE */
+@import "./css/menu_mobile.css";
+
+/* HOME */
+@import "./css/home.css";
+
+/* PAGINAS */
+@import "./css/paginas.css";
+
+/* FOOTER */
+@import "./css/footer.css";
+
+
+
+
+
+
+

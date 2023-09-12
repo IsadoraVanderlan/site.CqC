@@ -1,0 +1,59 @@
+.mobile-menu-icon {
+  display: none;
+}
+
+.mobile-menu {
+  background-color: #ffffffed;
+  position: absolute;
+  padding-left: 10px;
+  padding-right: 20px;
+  border-radius: 0px 0px 0px 20px;
+  top: 58px;
+  right: 0;
+  z-index: 10;
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .nav-item, .voluntario {
+      display: none;
+  }
+  .nav-item a {
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'roboto', serif;
+    color: #D99F89D4;
+    padding-bottom: 20px;
+  }
+  a .nav-link {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  .mobile-menu-icon {
+      display: block;
+  }
+  .mobile-menu-icon button {
+      background-color: #ddb3a4;
+      border: none;
+      cursor: pointer;
+      border-radius: 8px;
+  }
+  .mobile-menu ul {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding-bottom: 2rem;
+  }
+  .mobile-menu li {
+    padding-bottom: 1rem;
+}
+  .mobile-menu .nav-item {
+      display: block;
+  }
+  .mobile-menu .login-button button {
+      width: 100%;
+  }
+  .open {
+      display: block;
+  }
+}
